@@ -1,0 +1,159 @@
+@media only screen and (max-width: 1920px) {
+.container-login-signup{
+	position: absolute;
+	width: 502px;
+	height: 583px;
+	left: 40%;	
+	background: #FFFFFF;
+	box-shadow: 0px 16px 32px #141f35;
+	border-radius: 32px;
+	top:50px;
+
+	}
+.user{
+	position: absolute;
+	width: 106px;
+	height: 84px;
+	left: 200px;
+	top: 40px;
+	font-size:80px;
+}
+.infoemail{
+	position: absolute;
+	width: 358px;
+	height: 48px;
+	left: 90px;
+	top: 250px;
+	background: #FFFFFF;
+	border: 1px solid #141f35;
+	border-radius: 8px;
+}
+.iconemail{
+	position: absolute;
+	width: 104px;
+	height: 48px;
+	left: 30px;
+	top: 253px;
+	font-weight: 400;
+	font-size: 37px;
+	line-height: 48px;
+	color: #141f35;	
+	}	
+.infopass{
+	position: absolute;
+	width: 358px;
+	height: 48px;
+	left: 90px;
+	top: 350px;
+	background: #FFFFFF;
+	border: 1px solid #141f35;
+	border-radius: 8px;
+}
+.iconpass{
+	position: absolute;
+	width: 104px;
+	height: 48px;
+	left: 30px;
+	top: 353px;
+	font-weight: 400;
+	font-size: 37px;
+	line-height: 48px;
+	color: #141f35;}
+
+.forgetpasslink{
+position: absolute;
+width: 104px;
+height: 48px;
+left: 350px;
+top: 353px;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 48px;
+color:#141f35;
+} 
+.infoemail:active,
+.infoemail:focus,
+.infoemail:hover {
+	border: 3px solid #6d2642;
+}
+.infopass:active,
+.infopass:focus,
+.infopass:hover {
+	border: 3px solid #6d2642;
+}
+
+.forgetpasslink:active,
+.forgetpasslink:focus,
+.forgetpasslink:hover {
+	color:  #6d2642;
+	font-size: 13px;
+}
+
+
+
+.buttonlogin
+{position: absolute;
+	width: 360px;
+	height: 48px;
+	left: 90px;
+	top: 450px;
+	background: #6d2642;
+	border-radius: 6px;}
+
+.txtlogin{color:white;
+font-size: 25px;
+font-weight: bold;	
+text-align: center;}
+
+.titlelogin{
+	position: absolute;
+	width: 122px;
+	height: 40px;
+	left: 205px;
+	top: 130px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 40px;
+	color: #353030;
+	}
+
+
+.signupsugg{
+	position: absolute;
+	width: 129px;
+	height: 22px;
+	left: 90px;
+	top: 500px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 22px;
+	/* identical to box height, or 183% */
+	
+	}
+
+	.linksignup{
+	position: absolute;
+	width: 41px;
+	height: 22px;
+	left: 130px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 22px;
+	color: #0f1522;
+	}
+
+
+}
+
+
+
+ .error{
+	text-align: center;
+	color:#6d2642
+}

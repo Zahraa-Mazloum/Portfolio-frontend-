@@ -1,0 +1,137 @@
+.aboutpage div {
+  display: flex;
+  height: 925px;
+  align-items: center;
+  justify-content: center;
+  background-color: #5f102f  ;
+  flex-wrap: wrap;
+}
+
+
+.aboutpage .heartimg {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .aboutpage .heartimg .heart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s ease;
+    transform: scale(1);
+  }
+  
+  .aboutpage .heartimg:hover .heart {
+    transform: scale(1);
+    opacity: 0;
+  }
+  
+  .aboutpage .heartimg .heartoverlay {
+    position: absolute;
+    top: -180px;
+    left: -200px;
+    right: 0;
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(10%);
+  }
+  
+  
+  .aboutpage .heartimg:hover .heartoverlay {
+    transform: translateX(-20);
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+/* =============================================================================================== */
+  .aboutpage .brainimg {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .aboutpage .brainimg .brain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s ease;
+    transform: scale(1);
+  }
+  
+  .aboutpage .brainimg:hover .brain {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  
+  .aboutpage .brainimg .brainoverlay {
+    position: absolute;
+    top: -180px;
+    left: -200px;
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(-100%);
+  }
+  
+  .aboutpage .brainimg:hover .brainoverlay {
+    transform: translateX(-20);
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutpage .handimg {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .aboutpage .handimg .hand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s ease;
+    transform: scale(1);
+  }
+  
+  .aboutpage .handimg:hover .hand {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  
+  .aboutpage .handimg .handoverlay {
+    position: absolute;
+    top: -180px;
+    left: -200px;
+    
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(-100%);
+  }
+  
+  .aboutpage .handimg:hover .handoverlay {
+    transform: translateX(0);
+    opacity: 1;
+  }

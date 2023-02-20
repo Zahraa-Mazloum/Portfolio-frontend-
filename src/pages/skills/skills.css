@@ -1,0 +1,48 @@
+.skill-package-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;   
+}
+.skills-content{
+    flex-basis: 30%;
+    margin-left: 20px;
+    padding-top:20px;       
+}
+
+.skill-title{
+    font-size: 6rem;
+    color: white;
+    margin: 17px 0;
+}
+.skill-desctiption{
+    color: white;
+    font-size: 1.3rem;  
+   
+}
+.arrow-button-group{
+    margin-top: 40px;   
+}
+.next-previous-btn{
+    font-size: 1.2rem;
+    padding: 4px;
+    border-radius: 40%;
+    border: 3px solid white; 
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.next-previous-btn:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.next-previous-btn:first-child{
+    margin-right: 10px;
+}
+
+
+
+

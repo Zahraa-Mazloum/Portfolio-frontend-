@@ -1,0 +1,49 @@
+.sidebar{
+width: 300px;
+padding: 50px 0px;
+border-right: 1px solid #ccc;
+background-color: #f6f6f6;
+height: calc(100vh - 80px);
+position: fixed;
+top: 85px;
+left: 0;
+}
+.sidebar .profile img{
+display: block;
+width: 120px;
+border-radius: 50%;
+border: 1px solid #acacac;
+margin: 0 auto;
+
+}
+.sidebar .profile h3 {
+    text-transform: uppercase;
+    color: #141f35;
+    text-align: center;
+}
+.sidebar ul {
+    padding: 0px;
+    margin-top: 50px;
+    list-style-type: none;
+}
+.sidebar li{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #333;
+    
+}
+.sidebar li:hover {
+background-color:#141f35;
+color: white;
+}
+/* @media (max-width: 767px) {
+    .sidebar{
+        display: none;
+
+
+
+    }
+} */

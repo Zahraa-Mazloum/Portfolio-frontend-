@@ -1,0 +1,115 @@
+.contactpage  {
+  display: flex;
+  height: 935px;
+  flex-direction: row;
+  background-color: #5f102f  ;
+  flex-wrap: wrap;
+  overflow: hidden; 
+}
+
+.videocontact{
+  position:absolute;
+  bottom: 25%;
+  height:80%;
+  left: 10%;
+}
+
+.sendingemailform{
+  position: absolute;
+  left:56%;
+  top:33%;
+}
+.contacttitle{
+  position: absolute;
+  top: -90px;
+width:358px;
+text-align: center;
+font-size: 35px;
+left:10px;
+margin-top: 10px;
+color: #fff;
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #141f35, 0 0 70px #141f35, 0 0 80px #141f35, 0 0 100px #141f35, 0 0 150px #141f35;
+animation: flicker 1s infinite alternate;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.nameuser{
+  background-color: #95ccd5;
+  border-color: #141f35;
+
+  border-radius: 10px;
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+	width: 358px;
+  color:white
+}
+.emailuser{
+  background-color: #95ccd5;
+  border-color: #141f35;
+
+  border-radius: 10px;
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: 70px;
+  transform: translateY(0);
+  transition: transform 200ms;
+	width: 358px;
+
+}
+.subjectuser{
+  background-color: #95ccd5;
+  border-color: #141f35;
+  border-radius: 10px;
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: 160px;
+  transform: translateY(0);
+  transition: transform 200ms;
+	width: 358px;
+}
+.sendmsg
+{position: absolute;
+	width: 200px;
+	height: 48px;
+	left:110px;
+	top: 450px;
+	background: #141f35;
+	border-radius: 6px;
+  color:white;
+top:250%}
+
+.sendmsg:hover {
+  animation: shake 0.5s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

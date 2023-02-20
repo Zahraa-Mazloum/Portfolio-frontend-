@@ -1,0 +1,60 @@
+nav {
+    position: absolute;
+    font-style: italic;
+    left:80%;
+    justify-content: flex-end;
+    height: 50px;
+    font-size: 15px;
+    align-items: flex-end;
+    padding: 0 px; 
+  } 
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li::after{
+    margin: 7px;
+    content: "/";
+    justify-content: space-between;
+    color:white
+  }
+  
+  nav li {
+    margin: 0 5px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    --c: #ffffff;
+    --s: .15em;
+    --_p: 100%;
+    color: var(--c);
+    line-height: 1.1em;
+    padding-bottom: calc(2.1*var(-ss));
+    background: 
+      conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+        left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+      conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+        left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+ 
+    /* transition-duration: 0.8s; 
+    top: 0px; 
+    transform: rotate(180deg);
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px; */
+  }
+  
+  
+  
+  

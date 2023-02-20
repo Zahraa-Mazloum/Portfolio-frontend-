@@ -1,0 +1,63 @@
+.my-project{
+  border-bottom: 2px solid #141f35;
+}
+
+.dashContent{
+    width: calc(100% - 300px);
+    padding: 50px;
+    margin-left: 300px;
+}
+.mainDashboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.dashContent table {
+    width: 100%;
+}
+.dashContent th{
+  padding: 15px;
+}
+.dashContent table,.dashContent td {
+
+    border: 1px solid #ccc;
+    padding:5px 15px;
+    border-collapse: collapse;
+  }
+  .dashContent th{
+    background-color: #eee;
+    color: #141f35;
+    text-align: start;
+    border: 1px solid #ccc;
+  }
+  .dashContent td img{
+    width: 100px;
+    display: block;
+    margin: 0px auto;
+  }
+ 
+  .tableBtn{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    color: white;
+  }
+  .tableBtn span{
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .tableBtn span:first-of-type{
+    background-color: #141f35;
+    transition: 0.4s;
+  }
+  .tableBtn span:last-of-type{
+background-color: #5f102f;
+transition: 0.4s;
+  }
+  .tableBtn span:hover {
+    transform: rotate(360deg);
+  }

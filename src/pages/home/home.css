@@ -1,0 +1,125 @@
+@keyframes changingBackground {
+
+    from{
+        background-color: #2596be;
+    }
+    100%{
+        background-color: #5f102f;
+    }
+}
+@keyframes changingBackground_2  {
+    from{
+        background-color: #333;
+    } 
+
+     to{
+        background-color: yellow;
+    }
+}
+
+body{
+    margin: 0;
+    }
+
+
+.Landing-animated-page{
+    background-color: #2596be;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: changingBackground 1s ease-in-out 1s forwards;  
+    margin:0;
+    padding: 0;
+}
+
+.Landing-page-content{
+    display: flex;
+    flex-direction: column;  
+    align-items:center;
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    justify-content: space-around;
+}
+@keyframes slideFromTop{
+    0% {
+        transform: translateY(-3000px);
+        
+        
+    }
+    30%{
+        transform: translateY(-50px);
+        transform: translateX(-20px);
+    }
+    
+    80%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+        transform: translateX(0);
+        
+    }
+}
+.animated-text{
+  
+	font: 700 4em/1 "Oswald", sans-serif;
+	letter-spacing: 0;
+	padding: .50em 0 .325em;
+	display: block;
+	margin: 0 auto;
+	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+	/*background: url(https://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;*/
+  background-size: 50px 50px;
+background-color: #7c84e4;
+background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .5) 25%, transparent 25%,
+                  transparent 85%, rgba(255, 255, 255, .5) 55%, rgba(255, 255, 255, .5) 85%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .5) 25%, transparent 25%,
+                  transparent 80%, rgba(255, 255, 255, .5) 80%, rgba(255, 255, 255, .5) 95%,
+                  transparent 25%, transparent);
+background-image: linear-gradient(135deg, rgba(255, 255, 255, .5) 25%, transparent 25%,
+                  transparent 40%, rgba(255, 255, 255, .5) 50%, rgba(255, 255, 255, .5) 75%,
+                  transparent 75%, transparent);
+	-webkit-background-clip: text;
+
+/* Animate Background Image */
+
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: aitf 10s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	-webkit-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+
+@keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+.description_landing_page{
+  background: linear-gradient(to right, hsl(244, 73%, 28%) 0, hsl(0, 0%, 100%) 10%, hsl(246, 52%, 56%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  font-size: 19px;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
